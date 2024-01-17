@@ -10,7 +10,7 @@ border: 10px solid;
 
 
 }
-#box1{
+#box{
 
 width: 100px;
 height: 100px;
@@ -18,3 +18,23 @@ background-color: chartreuse;
 box-shadow: 3px 3px 3px plum;
 
 } 
+body{
+    margin: 0px;
+}
+.box{
+
+    border: 5px solid;
+    font-size: 5em;
+    width: 500px;
+    height: 250px;
+}
+#box1{
+    background-color: brown;
+    margin: auto;
+}
+#box2{
+
+    background-color: blue;
+    margin: 50px;
+
+}
