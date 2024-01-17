@@ -1,0 +1,20 @@
+h1{
+border: 3px solid color(srgb rgb(226, 91, 91) green blue);
+font-size:50px;
+text-shadow: 3px 3px 3px palegoldenrod, -3px -3px -3px rgb(250, 0, 0);
+
+}
+p{
+
+border: 10px solid;
+
+
+}
+#box1{
+
+width: 100px;
+height: 100px;
+background-color: chartreuse;
+box-shadow: 3px 3px 3px plum;
+
+} 
