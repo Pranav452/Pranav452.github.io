@@ -12,5 +12,16 @@ box-sizing: border-box;
 
 }
 body{
-    background-color: crimson;
+    background-color: rgb(215, 29, 29);
 }
+    #greeting p{
+
+        background-color: rgb(20, 220, 123);
+        padding: 10PX;
+       display: none;
+
+    }
+    #greeting:hover p{
+        display: block;
+
+    }
