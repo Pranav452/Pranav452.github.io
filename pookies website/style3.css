@@ -1,0 +1,16 @@
+
+.box{
+width: 50%;
+height: auto;
+border: 2px solid;
+padding: 25px;
+float: left;
+text-align: center;
+min-height: 50%;
+background-color: beige;
+box-sizing: border-box;
+
+}
+body{
+    background-color: crimson;
+}
