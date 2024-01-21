@@ -36,7 +36,7 @@ text-align: center;
 
 }
 .dropdown a{
-    color: black;
+    color: rgb(247, 0, 0);
     text-decoration: none;
     display: block;
     padding: 5px 10px;
@@ -59,4 +59,9 @@ text-align: center;
 }
 .dropdown a:hover{
     background-color: deeppink;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
 }

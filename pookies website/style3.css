@@ -25,3 +25,11 @@ body{
         display: block;
 
     }
+    #box1{
+        width: 250px;
+        height: 250px;
+        border: 2px solid;
+        font-size:13em ;
+        text-align: center;
+        background-color: darkorange;
+    }

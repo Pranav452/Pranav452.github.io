@@ -1,15 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body{margin: 0%;}
 #mohan p{
 
 background-color: blue;
 padding: 10px;
 display: none;
+align-items: center;
+width: 55%;
+
 
 
 }
+
 #mohan:hover p{
     display: block;
+
 }
 body{
 
 background-color: pink;
+}
+header
+{
+    background-color: gray;
+    text-align: center;
+    padding: 25px;
+}
+.navbar{
+    background-color: rgb(226, 0, 0);
+    height: 50px;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+
+}
+footer{
+   display: block;
+   clear: both;
+    background-color: gray;
+    text-align: center;
+    padding: 25px;}
+    @media screen and (max-width: 250px){
+        aside,section,article{
+        width: 40%;
+    }}
+    .navbar ul{
+        list-style: none;
+        background-color: rgb(255, 5, 5);
+        padding: 0px;   
+        margin: 0px;
+        overflow: hidden;
+    
+    }
+    .navbar a{
+        color: rgb(255, 0, 0);
+        text-decoration: none;
+        padding: 10px;
+        display: block;
+        text-align: center;
+    }
+    .navbar a:hover{
+    background-color: darkred;
+    
+    
+    }
+    .navbar li{
+        float: left;
+    }
+.GALLERY{
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid;
+
+}
+.GALLERY .discription{
+    padding: 10px;
+    text-align: center;
+
+}
+.GALLERY:hover{
+    background-color: darkblue;
 }
